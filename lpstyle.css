@@ -1,0 +1,88 @@
+#header-image{
+        
+    height:100px;
+    border-radius: 50%;
+    display: block;
+    left:20px ;
+}
+#nav-bar1{
+    position:relative;
+    top: -200px;
+    left: 550px;
+    text-align-last: center;
+    color:black;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 10px;
+
+    }
+#header-name{
+    text-align: center;
+    display: inline;
+    position: relative;
+    top: -65px;
+    left:40px;
+    font-size: 70px;
+    font-weight: normal;
+    font-family: "Sacramento";
+}
+#nav-bar2{
+    position:relative;
+    top: -210px;
+    right: -550px;
+    text-align-last: center;
+    text-decoration-color: none;
+    font-size: 25px;
+    }
+#nav-bar1 a:hover{
+    background-color: goldenrod;
+       }
+
+
+.layout{
+    
+    padding-left: 200px;
+    padding-right:200px;
+
+}
+#form{
+    text-align-last: center;
+    
+}
+input,label{
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+    top:-100px;
+}
+.table1, .table2, .table3{
+    float: left;
+    padding-right: 100px;
+    line-height: 2;
+    border: 1px solid black;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+}
+.shop-table{
+   width: 100%;
+   text-align: left;
+   border-collapse: collapse; 
+   padding-left: 100px;
+   padding-top: 100px;
+}
+.shop-table th { 
+   background-color: goldenrod;
+   color: white; 
+}
+.shop-table td, .shop-table th { 
+   padding: 10px;
+   
+}
+
+
+
+
+
